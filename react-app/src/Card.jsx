@@ -1,9 +1,10 @@
+import Pic from "./assets/react.svg";
 function Card(){
     return( 
         <div className="card">
-            <img src="https://placeimg.com/200/200/animals" alt="animal"/>
-            <h2>Card Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque.</p>
+            <img className ="card-img" src = {Pic} alt="animal"/>
+            <h2 className="card-title">Card Title</h2>
+            <p className = "card-text">I am a student pursuing my Btech CSE degree in Ai/ML track.</p>
         </div>
     );
 }

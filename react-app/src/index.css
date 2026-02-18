@@ -1,0 +1,29 @@
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+.card .card-img{
+    width: 50%;
+    height: auto;
+    border-radius: 46%;
+    margin-bottom: 10px;
+}
+
+.card .card-title{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: peru;
+}
+
+.card .card-text{
+    font-size: 1em;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
